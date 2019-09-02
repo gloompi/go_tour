@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  go:
+    build: .
+    command: go run main.go
+    ports:
+      - 8000:8000
